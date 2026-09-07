@@ -322,24 +322,23 @@ Planned test sizes include:
 
 ## Changelog
 
-### Part 2 Development
+## Part 2 Development
 
-- Created external CSS stylesheets for the website.
-- Linked the external stylesheets to the relevant HTML pages.
-- Added default CSS styling for the website.
-- Added typography styling for headings, paragraphs, links and other text elements.
-- Added layout styling using CSS layout techniques.
-- Added colours, borders, spacing and other decorative styling.
-- Added hover, focus and active pseudo-classes to interactive elements.
-- Added responsive breakpoints for tablet and mobile screen sizes.
-- Adjusted page layouts for smaller screens.
-- Adjusted typography for smaller screen sizes.
-- Adjusted the navigation for smaller screen sizes.
-- Added responsive styling for website images.
-- Added responsive images using the `picture`, `srcset` and `sizes` techniques.
-- Added and integrated the MashTech Repairs logo throughout the website.
-- Added technology-related imagery to improve the visual presentation of the website.
-- Updated the README with Part 2 development information and references.
+Part 2 of the WEDE5020 Portfolio of Evidence builds on the website developed in Part 1.
+
+The Part 2 development focuses on:
+
+- Creating and applying external CSS stylesheets.
+- Establishing consistent default website styles.
+- Applying typography styles.
+- Creating structured desktop layouts.
+- Applying colour and decorative styling.
+- Adding CSS pseudo-classes for interactive elements.
+- Implementing responsive design for tablet and mobile screen sizes.
+- Adjusting layouts, typography, navigation and images for different screen sizes.
+- Testing the website using browser developer tools.
+
+The website is maintained as a multi-page HTML project and the existing Part 1 structure and functionality have been retained while the visual presentation and responsive behaviour have been improved.
 
 ### Part 1 Feedback
 
