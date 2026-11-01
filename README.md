@@ -1,385 +1,170 @@
-# MashTech Repairs
+# MashTech Repairs — WEDE5020 Portfolio of Evidence
 
-## WEDE5020 – Web Development (Introduction)
+**Module:** Web Development (Introduction)  
+**Module code:** WEDE5020  
+**Project:** MashTech Repairs  
+**Project type:** Five-page responsive HTML, CSS and JavaScript website  
+**Service-area concept:** Pretoria, Gauteng, South Africa
 
-### Portfolio of Evidence – Part 1
+> **Assessment honesty note:** This repository documents a static front-end student project. The forms prepare an email draft; they do not send or store submissions on a server. The browser test checklist at the end must only be marked complete after the student performs the tests. Responsive evidence must be captured from the final version of the site, not from an earlier design.
 
-**Website:** MashTech Repairs
-**Purpose:** Technology Repair Services Website
-**Location:** Pretoria, Gauteng, South Africa
+## 1. Project overview
 
----
+MashTech Repairs is a multi-page website concept for a technology repair service. It provides business information, service categories, a repair enquiry form, contact information and a map-area reference. The project retains the five-page structure and relevant content from the earlier submission while improving the design, responsive behaviour, accessibility basics, front-end interactions and SEO metadata.
 
-## 1. Project Overview
+## 2. Website pages
 
-MashTech Repairs is a technology repair business website developed for the WEDE5020 Web Development (Introduction) Portfolio of Evidence.
+| Page | Purpose and features |
+|---|---|
+| `index.html` | Homepage, service overview, responsive hero image and calls to action. |
+| `about.html` | Business information, values and an interactive image gallery/lightbox. |
+| `services.html` | Service cards, live text search, clear-search action, no-results message and links that preselect a device in the enquiry form. |
+| `enquiry.html` | Repair enquiry form with required fields, browser validation, phone-number check, live problem-description count and email-draft preparation. |
+| `contact.html` | Contact details, general contact form, validation and an OpenStreetMap area reference. |
 
-The website provides information about the business, its technology repair services and how customers can contact the business or submit a repair enquiry.
+The navigation menu links to all five pages. Each page has one main heading, a skip link, a current-page navigation marker, a page-specific title and meta description, and the shared stylesheet.
 
-The website was developed using HTML and follows a simple multi-page website structure.
+## 3. Technologies and structure
 
-The main purpose of the website is to provide customers with clear information about MashTech Repairs and make it easy for them to navigate between the available services, business information, contact details and enquiry form.
+- HTML5 semantic structure and form controls.
+- CSS3, Grid, Flexbox, responsive breakpoints and pseudo-classes.
+- JavaScript for navigation, service filtering, gallery behaviour, query-string preselection and form validation.
+- Visual Studio Code and Git/GitHub for development and version control.
 
----
-
-## 2. Website Objectives
-
-The objectives of the MashTech Repairs website are to:
-
-* Provide information about MashTech Repairs.
-* Explain the technology repair services offered.
-* Allow customers to submit a repair enquiry.
-* Provide customers with contact information.
-* Provide information about the business and its values.
-* Provide clear navigation between the different website pages.
-* Create a simple and accessible structure for users looking for technology repair services.
-
----
-
-## 3. Website Pages
-
-The website consists of the following pages:
-
-### Home Page – `index.html`
-
-The homepage introduces MashTech Repairs and provides an overview of the business.
-
-It includes:
-
-* A website heading.
-* Navigation links.
-* An introduction to MashTech Repairs.
-* A list of the main services.
-* Reasons to choose the business.
-* Links to the services and enquiry pages.
-* Footer information.
-
-### About Us – `about.html`
-
-The About Us page provides information about MashTech Repairs.
-
-It includes:
-
-* Background information.
-* The business vision.
-* Business values.
-* The customers the business serves.
-* A link to submit an enquiry.
-
-### Services – `services.html`
-
-The Services page explains the technology repair services offered by MashTech Repairs.
-
-The services covered include:
-
-* Smartphone repairs.
-* Laptop repairs.
-* Tablet repairs.
-
-The page also provides a link to the enquiry form.
-
-### Enquiry – `enquiry.html`
-
-The Enquiry page contains the repair enquiry form.
-
-The form collects:
-
-* Customer full name.
-* Email address.
-* Phone number.
-* Device type.
-* Device brand.
-* Repair type.
-* Description of the device problem.
-* Preferred contact method.
-
-The form also includes Submit Enquiry and Clear Form buttons.
-
-### Contact – `contact.html`
-
-The Contact page provides ways for customers to communicate with MashTech Repairs.
-
-It includes:
-
-* Telephone contact information.
-* Email address.
-* Business hours.
-* Pretoria Central information.
-* Hatfield information.
-* A link to the online enquiry form.
-
----
-
-## 4. Technologies Used
-
-The following technologies were used to develop Part 1:
-
-* HTML5
-* Visual Studio Code
-* Git/GitHub
-
-HTML5 was used to create the structure and content of the website.
-
-Visual Studio Code was used as the development environment.
-
-GitHub is used to store and manage the website project.
-
----
-
-## 5. HTML Features Used
-
-The website uses a variety of HTML elements to structure the content, including:
-
-* `header`
-* `nav`
-* `main`
-* `section`
-* `article`
-* `footer`
-* Headings
-* Paragraphs
-* Lists
-* Links
-* Forms
-* Labels
-* Input fields
-* Select menus
-* Textareas
-* Buttons
-* Fieldsets
-* Legends
-
-Semantic elements such as `header`, `nav`, `main`, `section`, `article` and `footer` were used to give the website a clear structure.
-
----
-
-## 6. Navigation
-
-A navigation menu is included on the website pages.
-
-The navigation allows users to move between:
-
-* Home
-* About Us
-* Services
-* Enquiry
-* Contact
-
-Internal links are used to connect the HTML pages.
-
-The enquiry and contact sections also contain links that direct users to the enquiry form.
-
----
-
-## 7. Enquiry Form
-
-The website includes an HTML enquiry form designed to collect information about a customer's repair request.
-
-The form uses different input types and controls appropriate to the information being collected.
-
-These include:
-
-* Text input.
-* Email input.
-* Telephone input.
-* Select/drop-down menus.
-* Radio buttons.
-* Textarea.
-* Submit button.
-* Reset button.
-
-Required fields are marked using the HTML `required` attribute.
-
-The form uses:
-
-
-<form action="#" method="post">
-
-The form structure is divided into fieldsets to organise the information into logical groups.
-
----
-
-## 8. Project Structure
-
-The Part 1 project uses the following structure:
-
-
+```text
 MashTech Repairs/
-│
 ├── index.html
 ├── about.html
 ├── services.html
 ├── enquiry.html
 ├── contact.html
-│
-├── _images/
-│   └── page/
-│       └── uU3BgbtcUcciF6dyVWNfEc-1920-80.jpg
-│
 ├── css_assets/
-│   ├── homepage.css
-│   └── subpages.css
-│
+│   └── site.css
 ├── js_assets/
-│   ├── homepage.js
 │   └── subpages.js
-│
-├── .vscode/
-│   └── launch.json
-│
+├── _images/
+│   └── page/             # Logo and responsive page images
+├── evidence/             # Final desktop/tablet/mobile screenshots
 └── README.md
+```
 
-The CSS and JavaScript asset folders were established as part of the project structure and are used as the foundation for the continued development of the website in later parts of the PoE.
+## 4. Part 2 — CSS styling and responsive design
 
----
+The supplied Formative 2 feedback recorded **71/85** overall. Visible criterion scores included feedback for Part 1 **4/10**, external stylesheet **10/10**, default styling **5/5**, typography **5/5**, layout structure **4/5**, and decoration/colour **5/5**. The feedback-for-Part-1 score indicated a need to document and demonstrate changes more clearly. The layout and responsive-design criteria also require attention to alignment, spacing and testing across screen sizes.
 
-## 9. Part 1 Result
+Changes carried forward in this iteration:
 
-The completed Part 1 submission received a mark of:
+- Consolidated page styling in `css_assets/site.css`, linked from all five HTML pages.
+- Applied shared typography, colour tokens, spacing, button, card and form styles.
+- Used Grid and Flexbox for desktop layouts and switched to simpler layouts at tablet/mobile breakpoints.
+- Added hover and visible keyboard-focus styles.
+- Adjusted navigation, images, cards, forms and map layout for smaller screens.
+- Added responsive image sources with `picture`, `srcset` and `sizes` on the homepage.
+- Added a skip link, semantic landmarks, labels, alternative text, and reduced-motion support.
+- Recorded the development changes in the changelog below.
 
-**78%**
+## 5. Part 3 — Functionality and SEO
 
-The mark indicates that the Part 1 submission met a substantial portion of the assessment requirements.
+### Interactive elements
 
-The website is being continued and improved in Part 2 based on the requirements of the next stage of the WEDE5020 Portfolio of Evidence.
+- The mobile navigation button toggles the menu and updates `aria-expanded`; selecting a navigation link closes the menu.
+- The Services page filters service cards while the visitor types, reports the number of matching services and supports clearing the search.
+- Service links pass a device value in the query string so the enquiry form can preselect the relevant device.
+- The About page gallery opens a larger image in a lightbox. It can be closed with its button, the backdrop or Escape, and focus returns to the triggering control.
 
----
+### Map
 
-## 10. Development Environment
+The Contact page contains an interactive OpenStreetMap view with two selectable service-area references: Pretoria Central and Hatfield. Selecting a button updates the embedded map and the external map link. These are general area references, not verified shop addresses or confirmed service counters.
 
-The website was developed using:
+### Enquiry and contact forms
 
-**Visual Studio Code**
+Both forms have labelled controls and client-side validation. The repair form includes required customer/device fields, email validation, a phone pattern and minimum-digit check, required contact preference, problem-description length constraints and a live character count. After validation, it presents a clear response explaining that price and appointment availability require assessment; it provides a user-clicked link to open the prepared email draft. The contact form validates name, email, subject, message and consent and presents an explicit link to open the prepared general-contact email. Both forms declare an email action in their HTML and use JavaScript to build a more useful email draft.
 
-The project can be opened as a folder in Visual Studio Code and the HTML pages can be viewed in a web browser.
+**Important limitation:** This is a static front-end project. After successful validation, JavaScript prepares a `mailto:` draft addressed to `info@mashtechrepairs.co.za`. The visitor must review and send the email in their own email application. The website does not transmit or save enquiries, and successful form validation does not mean an email has been sent. Automatic processing would require a secure server-side endpoint or a form-processing service.
 
-During development, the website can be run using a local development environment such as Live Server.
+Before any real-world launch, verify the telephone number, email address, opening hours, service area and business claims. These are project content and are not independently confirmed by this code review.
 
----
+### SEO foundations
 
-## 11. References
+Each page has a unique title, meta description and keywords tag, plus a robots directive, Open Graph title/description, viewport metadata, theme colour and `en-ZA` language declaration. Headings, navigation and image alternative text are provided. A canonical URL is intentionally omitted until the final public deployment URL is confirmed; do not invent a canonical address. Meta keywords are included because the assessment rubric requests them, although major search engines generally do not use them as a ranking signal. No search ranking or indexing result can be guaranteed by on-page metadata alone.
 
-The following resources may be used as supporting web-development references:
+## 6. Performance and security considerations
 
-* Mozilla Developer Network (MDN). (n.d.). *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML
+- The homepage uses responsive image sources so smaller screens can download smaller variants; below-the-fold gallery images and the map iframe use lazy loading. Images declare intrinsic dimensions to reduce layout shifts and use asynchronous decoding where supported.
+- JavaScript is loaded from the local `js_assets/subpages.js` file; no third-party JavaScript library is required. Form data is inserted into status messages using DOM text nodes/`textContent`, and email subject/body values are URL-encoded before creating `mailto:` links.
+- External links that open new tabs use `rel="noopener noreferrer"`. The map embed is supplied by OpenStreetMap and needs an internet connection.
+- This is a static website and does not store customer data or provide server-side processing. Do not place passwords, API keys, private tokens or real customer information in the repository. `mailto:` drafts depend on the visitor having an email application configured.
+- GitHub Pages does not provide arbitrary HTTP security-header configuration for this project. Do not claim server-side security controls that are not implemented; this project demonstrates safer front-end handling and relies on the static-hosting platform for HTTPS.
 
-* W3Schools. (n.d.). *HTML Tutorial*. Available at: https://www.w3schools.com/html/
+## 7. Changelog
 
-* The Independent Institute of Education (IIE). *WEDE5020 Web Development (Introduction) prescribed module/textbook material*.
+### 2026-11-01 — Part 3 implementation and Part 2 feedback follow-through
 
-* Unsplash. (n.d.). *Unsplash*. Available at: https://unsplash.com/
+- Redesigned the five-page site using a consistent navy, blue and light-neutral visual system, shared spacing and reusable cards, forms and buttons.
+- Applied the shared `css_assets/site.css` stylesheet to all five pages.
+- Added unique page titles, meta descriptions, meta keywords, robots directives and Open Graph title/description metadata. **Canonical links were not added**, because the final deployment URL has not yet been confirmed.
+- Added skip navigation, semantic page landmarks, current-page navigation states, descriptive image alternative text and visible focus styling.
+- Added responsive navigation behaviour and responsive layout/image rules for desktop, tablet and mobile.
+- Added live service filtering, result counts, a clear-search control and a no-results message.
+- Added service-specific enquiry links that preselect a device type through a query parameter.
+- Added an image lightbox with close-button, backdrop and Escape handling.
+- Improved the repair enquiry form with required controls, email and phone validation, problem-description length constraints, a live character count and an accessible status message.
+- Added a general contact form with required fields, validation and an explicit email-draft workflow.
+- Added an OpenStreetMap area embed and a direct map link; the map does not represent a verified shop address.
+- Documented the static-form limitation so the README does not claim that the website automatically sends or stores submissions.
+- Updated this README to describe the current filenames and separate implemented features from tests that still require browser verification.
 
+### Earlier work retained
 
-## Part 2 – CSS Styling and Responsive Design
+- Part 1 established the five-page website structure and received a reported mark of **78%**.
+- Part 2 established external CSS, typography, colour, layout and responsive styling. The feedback and subsequent changes are summarised above.
 
-Part 2 builds on the website developed in Part 1 by adding external CSS styling and responsive design.
+## 8. References
 
-The website has been improved using CSS for desktop presentation, typography, layout, colours, decoration and interactive states. Responsive styling has also been added so that the website adapts to tablet and mobile screen sizes.
+- Mozilla. (n.d.). *CSS: Cascading Style Sheets*. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/CSS
+- Mozilla. (n.d.). *Responsive images*. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+- Mozilla. (n.d.). *Client-side form validation*. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+- World Wide Web Consortium. (2023). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/
+- OpenStreetMap contributors. (n.d.). *OpenStreetMap*. https://www.openstreetmap.org/ (map data attribution; map is embedded from OpenStreetMap).
 
-### CSS Structure
+**Image-source note:** Keep source/credit information with any externally sourced image used in the submitted project. If the original image source cannot be confirmed, do not invent a specific photographer or source URL; replace it with a correctly credited image or document its verified source before final submission.
 
-The project uses external CSS stylesheets:
+## 9. Test checklist — complete on the target PC/browser
 
-- `css_assets/homepage.css` – styling for the homepage.
-- `css_assets/subpages.css` – styling for the website subpages.
+The automated checks performed during this audit are recorded separately from interactive browser checks. Do not mark the pending items as passed until they have actually been tested.
 
-The CSS includes:
+| Check | Expected result | Status at packaging |
+|---|---|---|
+| Parse the five HTML files and check local relative paths | HTML files parse; linked local stylesheets, scripts, pages and images exist | Automated check passed |
+| JavaScript syntax | `subpages.js` and `homepage.js` pass `node --check` | Automated check passed |
+| One page-specific title, description, H1 and stylesheet per page | All five pages contain these elements | Automated check passed |
+| Duplicate IDs and image alt attributes | No duplicate IDs; all images have `alt` attributes | Automated check passed |
+| Navigate across all five pages in a browser | Each navigation link opens the correct page | **Pending browser test** |
+| Responsive layout at 1440px, 768px and 390px | No unintended horizontal overflow; content and navigation fit | **Pending browser test** |
+| Services search for “laptop”, no-match term and clear action | Correct cards filter; no-results message and reset work | **Pending browser test** |
+| Gallery open/close by button, backdrop and Escape | Image/caption display and viewer closes correctly | **Pending browser test** |
+| Empty form, invalid email, short phone and valid repair enquiry | Invalid input is blocked; valid data shows cost/availability guidance and an email-draft link | **Pending browser test** |
+| Contact form invalid and valid submissions | Validation works; valid data reveals a link to prepare a draft (does not send automatically) | **Pending browser test** |
+| OpenStreetMap map selection (Pretoria Central/Hatfield) and external map link | Selecting each area updates the map, title, description and external link | **Pending browser test** |
+| Deployment | Public site loads without missing assets or console errors | **Pending deployment** |
+| Responsive screenshots | Capture real final-version desktop/tablet/mobile screenshots and save in `evidence/` | **Pending capture** |
 
-- Default/base styling
-- Typography styling
-- Flexbox and/or Grid layout
-- Colours and decorative styling
-- Hover, focus and active states
-- Responsive media queries
-- Responsive image styling
+### Required screenshot evidence
 
-### Responsive Design
+Capture the final site in the browser's responsive/device toolbar and save the screenshots in this folder with these exact names:
 
-Responsive breakpoints have been implemented for desktop, tablet and mobile screen sizes.
+- `evidence/evidence-laptop.png` — desktop, around 1440 × 900.
+- `evidence/evidence-tablet.png` — tablet, 768 × 1024.
+- `evidence/evidence-mobile.png` — mobile, 390 × 844.
 
-The layout, typography, navigation and images are adjusted at smaller screen sizes to maintain usability and readability.
+The screenshots must be captured from the final code. Do not submit old screenshots or resized copies of one screenshot as evidence of different viewports. Insert the images into this README after capture if the assessment instructions require screenshots to be visible inside the document.
 
-### Responsive Images
+## 10. Final submission checks
 
-Responsive image techniques have been incorporated using:
-
-- `<picture>`
-- `srcset`
-- `sizes`
-- Different image resolutions
-
-This allows images to adapt to different screen sizes.
-
-### Testing
-
-The website will be tested using browser developer tools at desktop, tablet and mobile viewport sizes.
-
-Planned test sizes include:
-
-- Desktop: 1920 × 1080
-- Tablet: 768 × 1024
-- Mobile: 390 × 844
-
-## Changelog
-
-## Part 2 Development
-
-Part 2 of the WEDE5020 Portfolio of Evidence builds on the website developed in Part 1.
-
-The Part 2 development focuses on:
-
-- Creating and applying external CSS stylesheets.
-- Establishing consistent default website styles.
-- Applying typography styles.
-- Creating structured desktop layouts.
-- Applying colour and decorative styling.
-- Adding CSS pseudo-classes for interactive elements.
-- Implementing responsive design for tablet and mobile screen sizes.
-- Adjusting layouts, typography, navigation and images for different screen sizes.
-- Testing the website using browser developer tools.
-
-The website is maintained as a multi-page HTML project and the existing Part 1 structure and functionality have been retained while the visual presentation and responsive behaviour have been improved.
-
-### Part 1 Feedback
-
-Part 1 feedback has not yet been received. This section will be updated once the lecturer releases the Part 1 marks and feedback, and any required corrections will be recorded here.
-
-## References
-
-### Web Development Resources
-
-- Mozilla Developer Network (MDN). (n.d.). CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
-
-- W3Schools. (n.d.). CSS Tutorial. Available at: https://www.w3schools.com/css/
-
-### Images
-
-- Unsplash. (n.d.). Laptop, smartphone and repair tools on a desk. Available at: https://unsplash.com/
-
-- Unsplash. (n.d.). Laptop beside smartphone. Available at: https://unsplash.com/
-
-- Unsplash. (n.d.). Computer repair imagery. Available at: https://unsplash.com/
-
-- Unsplash. (n.d.). Laptop and smartphone workspace. Available at: https://unsplash.com/
-
-## Responsive Design Evidence
-
-The website was tested using browser developer tools at different viewport sizes.
-
-### Desktop
-
-Tested at 1920 × 1080.
-
-![Desktop responsive design](evidence/evidence-desktop.png)
-
-### Tablet
-
-Tested at 768 × 1024.
-
-![Tablet responsive design](evidence/evidence-tablet.png)
-
-### Mobile
-
-Tested at 390 × 844.
-
-![Mobile responsive design](evidence/evidence-mobile.png)
+1. Complete all pending browser tests above.
+2. Capture genuine desktop, tablet and mobile screenshots and place them in `evidence/`.
+3. Verify the public deployment URL and test every page and asset on the deployed version.
+4. Add a canonical URL only if appropriate and only after confirming the final public URL.
+5. Check the Git history contains multiple descriptive commits, including feedback changes and Part 3 functionality.
+6. Ensure the README reflects the actual final code and that no credentials, private keys or unnecessary personal data are committed.
+7. Submit the GitHub repository/deployment links as required by the LMS instructions.

@@ -1,179 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en-ZA">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry | MashTech Repairs</title>
-    <link rel="stylesheet" href="css_assets/subpages.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Repair Enquiry | MashTech Repairs</title>
+<meta content="Submit a repair enquiry to MashTech Repairs. Provide contact details, device information and a description of the issue." name="description"/>
+<meta content="technology repairs Pretoria, smartphone repairs, laptop repairs, tablet repairs, gaming console diagnostics" name="keywords"/>
+<meta content="website" property="og:type"/>
+<meta content="Repair Enquiry | MashTech Repairs" property="og:title"/>
+<meta content="Submit a repair enquiry to MashTech Repairs. Provide contact details, device information and a description of the issue." property="og:description"/>
+<meta content="index,follow" name="robots"/>
+<meta content="#0b1f3a" name="theme-color"/>
+<link href="css_assets/site.css" rel="stylesheet"/>
 </head>
 <body>
-
-    <header>
-    <a href="index.html" class="logo-link">
-        <img src="_images/page/mashtech-logo.png" alt="MashTech Repairs logo">
-    </a>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="services.html">Services</a>
-        <a href="enquiry.html">Enquiry</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header>
+<a aria-label="MashTech Repairs home" class="logo-link" href="index.html"><img alt="MashTech Repairs" decoding="async" height="500" src="_images/page/mashtech-transparent-logo.png" width="500"/></a>
+<button aria-controls="primary-navigation" aria-expanded="false" class="menu-toggle" type="button">Menu <span aria-hidden="true">☰</span></button>
+<nav aria-label="Main navigation" id="primary-navigation">
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="services.html">Services</a>
+<a aria-current="page" href="enquiry.html">Enquiry</a>
+<a href="contact.html">Contact</a>
+</nav>
 </header>
-
-    <main>
-          <section>
-            <h2>Make an Enquiry</h2>
-
-            <p>
-                Complete the form below to tell us about your device and the
-                repair service you require.
-            </p>
-        </section>
-
-        <section>
-             <h2>Repair Enquiry Form</h2>
-
-            <form action="#" method="post">
-
-                <fieldset>
-                    <legend>Customer Information</legend>
-
-                    <label for="full-name">Full Name:</label>
-                    <input
-                        type="text"
-                        id="full-name"
-                        name="full-name"
-                        required
-                    >
-                    <br><br>
-
-                    <label for="email">Email Address:</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                    >
-                    <br><br>
-
-                    <label for="phone">Phone Number:</label>
-                    <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        required
-                    >
-                </fieldset>
-
-                <br>
-
-               <fieldset>
-                    <legend>Device Information</legend>
-
-                    <label for="device-type">Device Type:</label>
-                    <select id="device-type" name="device-type" required>
-                        <option value="">-- Select Device --</option>
-                        <option value="smartphone">Smartphone</option>
-                        <option value="laptop">Laptop</option>
-                        <option value="tablet">Tablet</option>
-                        <option value="gaming-console">Gaming Console</option>
-                        <option value="other">Other</option>
-                    </select>
-                    <br><br>
-
-                    <label for="device-brand">Device Brand:</label>
-                    <input
-                        type="text"
-                        id="device-brand"
-                        name="device-brand"
-                        required
-                    >
-                    <br><br>
-
-                    <label for="repair-type">Repair Type:</label>
-                    <select id="repair-type" name="repair-type" required>
-                        <option value="">-- Select Repair Type --</option>
-                        <option value="diagnostics">Device Diagnostics</option>
-                        <option value="software">Software Troubleshooting</option>
-                        <option value="hardware">Hardware Repair</option>
-                        <option value="performance">Performance Problem</option>
-                        <option value="other">Other</option>
-                    </select>
-                </fieldset>
-
-                <br>  
-                
-                <fieldset>
-                    <legend>Repair Details</legend>
-
-                    <label for="problem">
-                        Describe the problem with your device:
-                    </label>
-                    <br>
-
-                    <textarea
-                        id="problem"
-                        name="problem"
-                        rows="6"
-                        cols="40"
-                        placeholder="Please describe the problem..."
-                        required
-                    ></textarea>
-                </fieldset>
-
-                <br>
-
-                 <fieldset>
-                    <legend>Preferred Contact Method</legend>
-
-                    <input
-                        type="radio"
-                        id="contact-email"
-                        name="contact-method"
-                        value="email"
-                        required
-                    >
-                    <label for="contact-email">Email</label>
-
-                    <br>
-
-                    <input
-                        type="radio"
-                        id="contact-phone"
-                        name="contact-method"
-                        value="phone"
-                    >
-                    <label for="contact-phone">Phone</label>
-                </fieldset>
-
-                <br>
-
-               <button type="submit">Submit Enquiry</button>
-                <button type="reset">Clear Form</button>
-
-            </form>
-        </section>
- 
-        <section>
-             <h2>What Happens Next?</h2>
-
-            <p>
-                After submitting an enquiry, MashTech Repairs will review the
-                information provided and contact the customer using their
-                preferred contact method.
-            </p>
-
-
-        </section>   
-
-
-    </main>
-
-    <footer>
-        <p>&copy; 2026 MashTech Repairs. All rights reserved.</p>
-        <p>Pretoria, Gauteng, South Africa</p>
-    </footer>
+<main id="main-content">
+<section><p class="eyebrow">Tell us what needs fixing</p><h1>Make a repair enquiry</h1><p>Complete the form with as much relevant information as possible. Required fields are marked with an asterisk.</p><p class="form-note">This student project demonstrates front-end form validation and prepares an email draft in your device’s default email application. It does not store or send personal information to a server.</p></section>
+<section><h2>Repair enquiry form</h2><form action="mailto:info@mashtechrepairs.co.za" enctype="text/plain" id="repair-enquiry-form" method="post" novalidate="">
+<fieldset><legend>Customer information</legend><label for="full-name">Full name *</label><input autocomplete="name" id="full-name" minlength="2" name="fullName" required=""/><label for="email">Email address *</label><input autocomplete="email" id="email" name="email" required="" type="email"/><label for="phone">Phone number *</label><input aria-describedby="phone-help" autocomplete="tel" id="phone" inputmode="tel" name="phone" pattern="[0-9+() .-]{7,20}" required="" type="tel"/><small class="muted" id="phone-help">Enter a phone number with at least 7 digits.</small></fieldset>
+<fieldset><legend>Device information</legend><label for="device-type">Device type *</label><select id="device-type" name="deviceType" required=""><option value="">Select a device</option><option value="smartphone">Smartphone</option><option value="laptop">Laptop</option><option value="tablet">Tablet</option><option value="gaming-console">Gaming console</option><option value="other">Other</option></select><label for="device-brand">Device brand/model *</label><input id="device-brand" minlength="2" name="deviceBrand" placeholder="e.g. Samsung Galaxy A-series" required=""/><label for="repair-type">Type of issue *</label><select id="repair-type" name="repairType" required=""><option value="">Select an issue</option><option>Diagnostics</option><option>Software troubleshooting</option><option>Hardware concern</option><option>Performance problem</option><option>Screen or display</option><option>Other</option></select><label for="problem">Describe the problem *</label><textarea id="problem" maxlength="1500" minlength="15" name="problem" placeholder="Explain what is happening, when it started and any error messages." required="" rows="5"></textarea><small class="muted"><span id="problem-count">0</span>/1500 characters (minimum 15).</small></fieldset>
+<fieldset><legend>Preferred contact method *</legend><label class="choice-label"><input name="contactMethod" required="" type="radio" value="Email"/> Email</label><label class="choice-label"><input name="contactMethod" type="radio" value="Phone"/> Phone</label></fieldset>
+<label class="choice-label"><input id="privacy-consent" required="" type="checkbox"/> I confirm that the information above is accurate and may be used to respond to this enquiry. *</label>
+<div class="search-tools"><button type="submit">Prepare enquiry email</button><button class="button-secondary" type="reset">Clear form</button></div>
+<div aria-live="polite" class="form-status" hidden="" id="form-status" role="status"></div>
+<div aria-live="polite" class="form-status enquiry-response" hidden="" id="enquiry-response" role="status"></div>
+</form></section>
+</main>
+<footer>
+<p><strong>MashTech Repairs</strong> · Pretoria, Gauteng, South Africa</p>
+<p><a href="tel:+27697757527">069 775 7527</a> · <a href="mailto:info@mashtechrepairs.co.za">info@mashtechrepairs.co.za</a></p>
+<p>Monday–Friday, 08:00–17:00</p>
+<p>© <span data-current-year="">2026</span> MashTech Repairs. All rights reserved.</p>
+</footer>
+<script defer="" src="js_assets/subpages.js"></script>
 </body>
 </html>

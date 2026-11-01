@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://st10546137.github.io/MashTech-Repairs/sitemap.xml
